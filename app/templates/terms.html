@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Terms of Service | VOXHEART{% endblock %}
+{% block extra_css %}
+<style>
+.hero-card { background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 100%); border-radius: 2rem; box-shadow: 0 8px 32px rgba(37,99,235,0.13); padding: 3.2rem 1.5rem 2.2rem 1.5rem; margin-bottom: 2.5rem; text-align: center; max-width: 1100px; margin-left: auto; margin-right: auto; animation: fade-in-up 1.1s cubic-bezier(.23,1.01,.32,1) both; }
+.hero-card h1 { color: #fff; font-size: 3.2rem; font-weight: 900; letter-spacing: -2px; text-transform: uppercase; margin-bottom: 1.1rem; text-shadow: 0 4px 24px rgba(30,41,59,0.22), 0 2px 0 #2563eb; }
+.terms-content { background: #fff; border-radius: 1.2rem; box-shadow: 0 2px 12px rgba(37,99,235,0.09); padding: 2.2rem 2rem 1.5rem 2rem; max-width: 900px; margin: 0 auto; color: #334155; font-size: 1.08rem; line-height: 1.7; }
+.terms-content h2 { color: #2563eb; font-size: 1.3rem; margin-top: 1.5rem; }
+</style>
+{% endblock %}
+{% block content %}
+<div class="hero-card fade-in-up">
+    <h1>Terms of Service</h1>
+    <p>By using VOXHEART, you agree to these terms. Please read them carefully.</p>
+</div>
+<div class="terms-content">
+    <h2>1. Use of Service</h2>
+    <p>VOXHEART provides heart health analysis for informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+    <h2>2. No Medical Advice</h2>
+    <p>Always consult a qualified healthcare provider with any questions about your health. Do not disregard professional advice because of something you read in this app.</p>
+    <h2>3. User Responsibilities</h2>
+    <p>You are responsible for the accuracy of the data you provide. Do not use VOXHEART for emergency situations.</p>
+    <h2>4. Limitation of Liability</h2>
+    <p>VOXHEART and its creators are not liable for any damages resulting from the use or inability to use the app.</p>
+    <h2>5. Changes to Terms</h2>
+    <p>We may update these terms at any time. Continued use of VOXHEART means you accept the new terms.</p>
+    <h2>6. Contact</h2>
+    <p>For questions, contact us at <a href="mailto:nrajulap@csu.edu">nrajulap@csu.edu</a>.</p>
+</div>
+{% endblock %} 
