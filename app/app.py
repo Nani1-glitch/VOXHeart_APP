@@ -10,7 +10,7 @@ import joblib
 from .health_advice import generate_health_advice
 from dotenv import load_dotenv
 import openai
-from voice_input import collect_user_voice_input
+from .voice_input import collect_user_voice_input
 
 # ReportLab imports
 from reportlab.lib.pagesizes import A4
