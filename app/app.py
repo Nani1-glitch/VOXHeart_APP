@@ -7,7 +7,8 @@ import os
 import pandas as pd
 import time
 import joblib
-from .health_advice import generate_health_advicefrom dotenv import load_dotenv
+from .health_advice import generate_health_advice
+from dotenv import load_dotenv
 import openai
 from voice_input import collect_user_voice_input
 
